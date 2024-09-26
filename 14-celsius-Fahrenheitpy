@@ -1,0 +1,9 @@
+# Solicitar a temperatura em Celsius
+temperatura_c = float(input("Digite a temperatura em grau Celsius ( °C): "))
+
+# Converte a temperatura para Fahrenheit
+temperatura_f = (9 * temperatura_c / 5) + 32
+
+# Exibe o resultado 
+print(f"A temperatura em graus Fahrenheit ( °F) é: ")
+print(f"{temperatura_f:.2f}")  
